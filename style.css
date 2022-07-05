@@ -1,0 +1,124 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.top-banner {
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+.common-banner {
+    width: 50%;
+    padding: 3%;
+}
+
+.candb {
+    background-color: black;
+    color: white;
+    padding: 3%;
+    margin: 0 auto;
+    width: 95%;
+    height: 280px;
+}
+
+.candi img {
+    width: 100%;
+}
+
+
+.candb h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.candb p {
+    text-align: justify;
+}
+
+.banner-left {
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+
+.banner-left h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.banner-right {
+    padding: 4%;
+    background-image: url(images/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px 500px;
+}
+
+.banner-right p {
+    margin-top: 50px;
+}
+
+.btn {
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.day-at-gal {
+    display: flex;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.day-at-gal h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.showImages {
+    display: flex;
+    justify-content: center;
+}
+
+.abc {
+    margin: 3px;
+}
+
+.footer {
+    display: flex;
+    padding: 3%;
+    margin-top: 50px;
+    margin: 10px;
+    color: white;
+    background-color: black;
+}
+
+.head,
+.para,
+.icon {
+    width: 33.33%;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+}
+
+.icon i {
+    margin: 15px;
+}
