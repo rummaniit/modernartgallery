@@ -26,28 +26,7 @@ body {
     padding: 3%;
 }
 
-.candb {
-    background-color: black;
-    color: white;
-    padding: 3%;
-    margin: 0 auto;
-    width: 95%;
-    height: 280px;
-}
 
-.candi img {
-    width: 100%;
-}
-
-
-.candb h1 {
-    text-align: center;
-    font-size: 30px;
-}
-
-.candb p {
-    text-align: justify;
-}
 
 .banner-left {
     font-size: 30px;
@@ -95,10 +74,6 @@ body {
     justify-content: center;
 }
 
-.abc {
-    margin: 3px;
-}
-
 .footer {
     display: flex;
     padding: 5%;
@@ -106,10 +81,6 @@ body {
     margin: 10px;
     color: white;
     background-color: black;
-}
-
-.gu {
-    padding: 5%;
 }
 
 .head,
@@ -125,4 +96,27 @@ body {
 
 .icon i {
     margin: 15px;
+}
+
+.candb {
+    background-color: black;
+    color: white;
+    padding: 25px 50px;
+    text-align: center;
+}
+
+.candi img {
+    width: fit-content;
+}
+
+.gu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.abc {
+    width: fit-content;
+    height: fit-content;
 }
