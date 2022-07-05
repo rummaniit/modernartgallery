@@ -101,11 +101,15 @@ body {
 
 .footer {
     display: flex;
-    padding: 3%;
+    padding: 5%;
     margin-top: 50px;
     margin: 10px;
     color: white;
     background-color: black;
+}
+
+.gu {
+    padding: 5%;
 }
 
 .head,
